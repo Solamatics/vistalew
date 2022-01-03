@@ -49,6 +49,7 @@ const Event = () => {
       })}
 
       <Button onClick={() => setPeople([])}>Clear All</Button>
+      <Button ml="3" onClick={() => setPeople(data)}>Refresh</Button>
     </Box>
   );
 };
